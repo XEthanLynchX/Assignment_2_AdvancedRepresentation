@@ -3,10 +3,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-// --- Function Prototypes ---
-// REMOVED: #include "convert.c"
+// Function Prototypes 
 // These declarations tell main.c that the functions exist in another file.
-// This is the correct way to link files in C.
 void oct_to_bin(const char *oct, char *out);
 void oct_to_hex(const char *oct, char *out);
 void hex_to_bin(const char *hex, char *out);

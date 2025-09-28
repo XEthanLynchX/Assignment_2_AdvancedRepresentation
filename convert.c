@@ -66,7 +66,7 @@ void oct_to_hex(const char *oct, char *out) {
     }
     out[hex_pos] = '\0';
     
-    // FIX: Remove leading zero unless the result is just "0"
+    //Remove leading zero unless the result is just "0"
     if (hex_pos > 1 && out[0] == '0') {
         memmove(out, out + 1, hex_pos);
     }
